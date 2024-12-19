@@ -29,6 +29,7 @@ const TabLayout = () => {
         <Tabs.Screen
           name="index"
           options={{
+            headerShown: false,
             title: "shop",
             tabBarIcon: (props) => (
                   <TabBarIcon {... props} name="shopping-cart" />
